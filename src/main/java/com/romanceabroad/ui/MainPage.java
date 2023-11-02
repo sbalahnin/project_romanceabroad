@@ -53,7 +53,7 @@ public class MainPage extends BaseActions {
 
         Reports.log("Click Next button");
         driver.findElement(Locators.BUTTON_NEXT).click();
-       // driver.findElement(Locators.BUTTON_NEXT).click();
+        driver.findElement(Locators.BUTTON_NEXT).click();
     }
 
     public void completeSecondPartOfRegistration(String nickname, String phone, String day,
