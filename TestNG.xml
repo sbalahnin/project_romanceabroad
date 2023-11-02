@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" parallel="none">
+
+    <!--    <test name="FirefoxTestCases">-->
+    <!--        <parameter name="browser" value="firefox"/>-->
+    <!--        <classes>-->
+    <!--            <class name ="com.romanceabroad.ui.RegistrationTests"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+
+    <test name="ChromeTestCases">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="version" value="80"/>
+        <parameter name="platform" value="Windows 11"/>
+        <!--        <groups>-->
+        <!--            <run>-->
+        <!--                <exclude name="firefox" />-->
+        <!--                <include name="admin" />-->
+        <!--                <include name="user" />-->
+        <!--            </run>-->
+        <!--        </groups>-->
+        <classes>
+            <class name="com.romanceabroad.ui.RegistrationTests"/>
+            <!--            <class name="com.romanceabroad.ui.BlogTests"/>-->
+            <!--            <class name="com.romanceabroad.ui.GiftTests"/>-->
+            <!--            <class name="com.romanceabroad.ui.MainTests"/>-->
+            <!--            <class name="com.romanceabroad.ui.HowWeWorkTests"/>-->
+            <!--            <class name="com.romanceabroad.ui.PhotosTests"/>-->
+            <!--            <class name="com.romanceabroad.ui.SearchTests"/>-->
+            <!--            <class name="com.romanceabroad.ui.SignInTests"/>-->
+            <!--            <class name="com.romanceabroad.ui.TourToUkraineTests"/>-->
+            <!--            <methods>-->
+            <!--                <include name=".*TestCase11.*"/>-->
+            <!--                <include name=".*TestCase12.*"/>-->
+            <!--                <exclude name=".*TestCase13.*"/>-->
+            <!--            </methods>-->
+            <!--        </class>-->
+        </classes>
+    </test>
+
+</suite>

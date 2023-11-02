@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 151.844 s <<< FAILURE! - in TestSuite
+MainPageTest(com.romanceabroad.ui.MainTests)  Time elapsed: 0.134 s  <<< FAILURE!
+java.lang.AssertionError: Video is not displayed
+	at com.romanceabroad.ui.MainTests.MainPageTest(MainTests.java:20)
+

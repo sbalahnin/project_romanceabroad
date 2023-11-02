@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-30T10:14:43 CDT" name="TestSuite" finished-at="2023-10-30T10:24:15 CDT" duration-ms="572183">
+    <groups>
+      <group name="firefox">
+        <method signature="SearchTests.testSearchPageTestCase12()[pri:2, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" name="testSearchPageTestCase12" class="com.romanceabroad.ui.SearchTests"/>
+      </group> <!-- firefox -->
+      <group name="admin">
+        <method signature="SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" name="searchDifferentResults13" class="com.romanceabroad.ui.SearchTests"/>
+        <method signature="SearchTests.testSearchPageTestCase12()[pri:2, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" name="testSearchPageTestCase12" class="com.romanceabroad.ui.SearchTests"/>
+        <method signature="SearchTests.selectRandomDropDownListOnSearchPageTestCase11()[pri:3, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" name="selectRandomDropDownListOnSearchPageTestCase11" class="com.romanceabroad.ui.SearchTests"/>
+      </group> <!-- admin -->
+      <group name="user">
+        <method signature="SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" name="searchDifferentResults13" class="com.romanceabroad.ui.SearchTests"/>
+        <method signature="SearchTests.testSearchPageTestCase12()[pri:2, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" name="testSearchPageTestCase12" class="com.romanceabroad.ui.SearchTests"/>
+        <method signature="SearchTests.selectRandomDropDownListOnSearchPageTestCase11()[pri:3, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" name="selectRandomDropDownListOnSearchPageTestCase11" class="com.romanceabroad.ui.SearchTests"/>
+      </group> <!-- user -->
+    </groups>
+    <test started-at="2023-10-30T10:14:43 CDT" name="ChromeTestCases" finished-at="2023-10-30T10:24:15 CDT" duration-ms="572183">
+      <class name="com.romanceabroad.ui.GiftTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.GiftTests@5af3afd9]" started-at="2023-10-30T10:15:34 CDT" name="setup" finished-at="2023-10-30T10:15:39 CDT" duration-ms="4554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.GiftTests.testGiftsLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGiftsLink()[pri:0, instance:com.romanceabroad.ui.GiftTests@5af3afd9]" started-at="2023-10-30T10:15:39 CDT" name="testGiftsLink" finished-at="2023-10-30T10:15:42 CDT" duration-ms="2606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftsLink -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.GiftTests@5af3afd9]" started-at="2023-10-30T10:15:42 CDT" name="afterActions" finished-at="2023-10-30T10:15:42 CDT" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGiftsLink status=SUCCESS method=GiftTests.testGiftsLink()[pri:0, instance:com.romanceabroad.ui.GiftTests@5af3afd9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.GiftTests -->
+      <class name="com.romanceabroad.ui.HowWeWorkTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@44ebcd03]" started-at="2023-10-30T10:16:05 CDT" name="setup" finished-at="2023-10-30T10:16:15 CDT" duration-ms="10810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.HowWeWorkTests.testHowWeWorkLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHowWeWorkLink()[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@44ebcd03]" started-at="2023-10-30T10:16:15 CDT" name="testHowWeWorkLink" finished-at="2023-10-30T10:16:17 CDT" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHowWeWorkLink -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@44ebcd03]" started-at="2023-10-30T10:16:17 CDT" name="afterActions" finished-at="2023-10-30T10:16:17 CDT" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHowWeWorkLink status=SUCCESS method=HowWeWorkTests.testHowWeWorkLink()[pri:0, instance:com.romanceabroad.ui.HowWeWorkTests@44ebcd03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.HowWeWorkTests -->
+      <class name="com.romanceabroad.ui.SignInTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SignInTests@4567f35d]" started-at="2023-10-30T10:24:05 CDT" name="setup" finished-at="2023-10-30T10:24:09 CDT" duration-ms="3844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SignInTests.testSignInTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSignInTest()[pri:0, instance:com.romanceabroad.ui.SignInTests@4567f35d]" started-at="2023-10-30T10:24:09 CDT" name="testSignInTest" finished-at="2023-10-30T10:24:09 CDT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInTest -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SignInTests@4567f35d]" started-at="2023-10-30T10:24:09 CDT" name="afterActions" finished-at="2023-10-30T10:24:09 CDT" duration-ms="147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignInTest status=SUCCESS method=SignInTests.testSignInTest()[pri:0, instance:com.romanceabroad.ui.SignInTests@4567f35d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.SignInTests -->
+      <class name="com.romanceabroad.ui.SearchTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:16:33 CDT" name="setup" finished-at="2023-10-30T10:16:37 CDT" duration-ms="3629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SearchTests.Loops1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Loops1()[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:16:37 CDT" name="Loops1" finished-at="2023-10-30T10:16:49 CDT" duration-ms="12262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loops1 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:16:49 CDT" name="afterActions" finished-at="2023-10-30T10:16:49 CDT" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Loops1 status=SUCCESS method=SearchTests.Loops1()[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:16:49 CDT" name="setup" finished-at="2023-10-30T10:16:59 CDT" duration-ms="9627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:16:59 CDT" name="searchDifferentResults13" data-provider="Search" finished-at="2023-10-30T10:18:14 CDT" duration-ms="75099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDifferentResults13 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:18:14 CDT" name="afterActions" finished-at="2023-10-30T10:18:14 CDT" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchDifferentResults13 status=SUCCESS method=SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:18:14 CDT" name="setup" finished-at="2023-10-30T10:18:16 CDT" duration-ms="2409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:18:16 CDT" name="searchDifferentResults13" data-provider="Search" finished-at="2023-10-30T10:18:24 CDT" duration-ms="7355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDifferentResults13 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:18:24 CDT" name="afterActions" finished-at="2023-10-30T10:18:24 CDT" duration-ms="68" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchDifferentResults13 status=SUCCESS method=SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:18:24 CDT" name="setup" finished-at="2023-10-30T10:18:26 CDT" duration-ms="2672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:18:26 CDT" name="searchDifferentResults13" data-provider="Search" finished-at="2023-10-30T10:19:43 CDT" duration-ms="76332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Views]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDifferentResults13 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:19:43 CDT" name="afterActions" finished-at="2023-10-30T10:19:43 CDT" duration-ms="457" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchDifferentResults13 status=SUCCESS method=SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:19:43 CDT" name="setup" finished-at="2023-10-30T10:19:49 CDT" duration-ms="5289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:19:49 CDT" name="searchDifferentResults13" data-provider="Search" finished-at="2023-10-30T10:19:54 CDT" duration-ms="5789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Registration date]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDifferentResults13 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:19:54 CDT" name="afterActions" finished-at="2023-10-30T10:19:54 CDT" duration-ms="101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchDifferentResults13 status=SUCCESS method=SearchTests.searchDifferentResults13(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.romanceabroad.ui.SearchTests@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:19:54 CDT" name="setup" finished-at="2023-10-30T10:19:59 CDT" duration-ms="4126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SearchTests.testSearchPageTestCase12()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchPageTestCase12()[pri:2, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:19:59 CDT" name="testSearchPageTestCase12" finished-at="2023-10-30T10:20:00 CDT" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchPageTestCase12 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:20:00 CDT" name="afterActions" finished-at="2023-10-30T10:20:00 CDT" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchPageTestCase12 status=SUCCESS method=SearchTests.testSearchPageTestCase12()[pri:2, instance:com.romanceabroad.ui.SearchTests@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:20:00 CDT" name="setup" finished-at="2023-10-30T10:20:07 CDT" duration-ms="6152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.SearchTests.selectRandomDropDownListOnSearchPageTestCase11()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectRandomDropDownListOnSearchPageTestCase11()[pri:3, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:20:07 CDT" name="selectRandomDropDownListOnSearchPageTestCase11" finished-at="2023-10-30T10:24:05 CDT" duration-ms="238643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRandomDropDownListOnSearchPageTestCase11 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.SearchTests@2e005c4b]" started-at="2023-10-30T10:24:05 CDT" name="afterActions" finished-at="2023-10-30T10:24:05 CDT" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectRandomDropDownListOnSearchPageTestCase11 status=SUCCESS method=SearchTests.selectRandomDropDownListOnSearchPageTestCase11()[pri:3, instance:com.romanceabroad.ui.SearchTests@2e005c4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.SearchTests -->
+      <class name="com.romanceabroad.ui.TourToUkraineTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.TourToUkraineTests@5ffead27]" started-at="2023-10-30T10:24:09 CDT" name="setup" finished-at="2023-10-30T10:24:13 CDT" duration-ms="3699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.TourToUkraineTests.testTourToUkraineLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTourToUkraineLink()[pri:0, instance:com.romanceabroad.ui.TourToUkraineTests@5ffead27]" started-at="2023-10-30T10:24:13 CDT" name="testTourToUkraineLink" finished-at="2023-10-30T10:24:15 CDT" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTourToUkraineLink -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.TourToUkraineTests@5ffead27]" started-at="2023-10-30T10:24:15 CDT" name="afterActions" finished-at="2023-10-30T10:24:15 CDT" duration-ms="79" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTourToUkraineLink status=SUCCESS method=TourToUkraineTests.testTourToUkraineLink()[pri:0, instance:com.romanceabroad.ui.TourToUkraineTests@5ffead27] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.TourToUkraineTests -->
+      <class name="com.romanceabroad.ui.BlogTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0]" started-at="2023-10-30T10:15:21 CDT" name="setup" finished-at="2023-10-30T10:15:27 CDT" duration-ms="6093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.BlogTests.collectAllLinksOfArticles()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="collectAllLinksOfArticles()[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0]" started-at="2023-10-30T10:15:27 CDT" name="collectAllLinksOfArticles" finished-at="2023-10-30T10:15:27 CDT" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectAllLinksOfArticles -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0]" started-at="2023-10-30T10:15:27 CDT" name="afterActions" finished-at="2023-10-30T10:15:27 CDT" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=collectAllLinksOfArticles status=SUCCESS method=BlogTests.collectAllLinksOfArticles()[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0]" started-at="2023-10-30T10:15:27 CDT" name="setup" finished-at="2023-10-30T10:15:32 CDT" duration-ms="5176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.BlogTests.testBlogLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testBlogLink()[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0]" started-at="2023-10-30T10:15:32 CDT" name="testBlogLink" finished-at="2023-10-30T10:15:34 CDT" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBlogLink -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0]" started-at="2023-10-30T10:15:34 CDT" name="afterActions" finished-at="2023-10-30T10:15:34 CDT" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBlogLink status=SUCCESS method=BlogTests.testBlogLink()[pri:0, instance:com.romanceabroad.ui.BlogTests@661972b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.BlogTests -->
+      <class name="com.romanceabroad.ui.RegistrationTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:14:43 CDT" name="setup" finished-at="2023-10-30T10:14:50 CDT" duration-ms="6479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:14:50 CDT" name="testRegistration" data-provider="Registration" finished-at="2023-10-30T10:14:54 CDT" duration-ms="4346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[streetracer@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1999]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:14:54 CDT" name="afterActions" finished-at="2023-10-30T10:14:55 CDT" duration-ms="527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:14:55 CDT" name="setup" finished-at="2023-10-30T10:14:59 CDT" duration-ms="4035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:14:59 CDT" name="testRegistration" data-provider="Registration" finished-at="2023-10-30T10:15:01 CDT" duration-ms="2410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass!!!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[October]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1950]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[45638829874]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:15:01 CDT" name="afterActions" finished-at="2023-10-30T10:15:01 CDT" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:15:01 CDT" name="setup" finished-at="2023-10-30T10:15:05 CDT" duration-ms="3880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:15:05 CDT" name="testRegistration" data-provider="Registration" finished-at="2023-10-30T10:15:08 CDT" duration-ms="2395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[regal@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passW00rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2002]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4675875382]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[State of New South Wales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:15:08 CDT" name="afterActions" finished-at="2023-10-30T10:15:08 CDT" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=RegistrationTests.testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:15:08 CDT" name="setup" finished-at="2023-10-30T10:15:12 CDT" duration-ms="4566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration2(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:15:12 CDT" name="testRegistration2" data-provider="Registration2" finished-at="2023-10-30T10:15:20 CDT" duration-ms="8145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test88951]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration2 -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46]" started-at="2023-10-30T10:15:21 CDT" name="afterActions" finished-at="2023-10-30T10:15:21 CDT" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration2 status=SUCCESS method=RegistrationTests.testRegistration2(java.lang.String,java.lang.String,boolean)[pri:0, instance:com.romanceabroad.ui.RegistrationTests@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.RegistrationTests -->
+      <class name="com.romanceabroad.ui.PhotosTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.PhotosTests@694abbdc]" started-at="2023-10-30T10:16:17 CDT" name="setup" finished-at="2023-10-30T10:16:24 CDT" duration-ms="6216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.PhotosTests.testMediaPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMediaPage()[pri:0, instance:com.romanceabroad.ui.PhotosTests@694abbdc]" started-at="2023-10-30T10:16:24 CDT" name="testMediaPage" finished-at="2023-10-30T10:16:33 CDT" duration-ms="9067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMediaPage -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.PhotosTests@694abbdc]" started-at="2023-10-30T10:16:33 CDT" name="afterActions" finished-at="2023-10-30T10:16:33 CDT" duration-ms="113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMediaPage status=SUCCESS method=PhotosTests.testMediaPage()[pri:0, instance:com.romanceabroad.ui.PhotosTests@694abbdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.PhotosTests -->
+      <class name="com.romanceabroad.ui.MainTests">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0]" started-at="2023-10-30T10:15:42 CDT" name="setup" finished-at="2023-10-30T10:15:51 CDT" duration-ms="8984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.MainTests.MainPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="MainPageTest()[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0]" started-at="2023-10-30T10:15:51 CDT" name="MainPageTest" finished-at="2023-10-30T10:15:51 CDT" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainPageTest -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0]" started-at="2023-10-30T10:15:51 CDT" name="afterActions" finished-at="2023-10-30T10:15:51 CDT" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MainPageTest status=SUCCESS method=MainTests.MainPageTest()[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0]" started-at="2023-10-30T10:15:51 CDT" name="setup" finished-at="2023-10-30T10:15:56 CDT" duration-ms="5143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.romanceabroad.ui.MainTests.testLinksOnMainPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLinksOnMainPage()[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0]" started-at="2023-10-30T10:15:56 CDT" name="testLinksOnMainPage" finished-at="2023-10-30T10:16:04 CDT" duration-ms="7790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinksOnMainPage -->
+        <test-method is-config="true" signature="afterActions(org.testng.ITestResult)[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0]" started-at="2023-10-30T10:16:04 CDT" name="afterActions" finished-at="2023-10-30T10:16:05 CDT" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLinksOnMainPage status=SUCCESS method=MainTests.testLinksOnMainPage()[pri:0, instance:com.romanceabroad.ui.MainTests@323b36e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterActions -->
+      </class> <!-- com.romanceabroad.ui.MainTests -->
+    </test> <!-- ChromeTestCases -->
+  </suite> <!-- TestSuite -->
+</testng-results>
